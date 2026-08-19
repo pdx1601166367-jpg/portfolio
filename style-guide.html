@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>UI 设计风格与交互参考 · Yang Jie</title>
+<link rel="icon" href="assets/favicon.png" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;500;700;800;900&family=Noto+Sans+SC:wght@300;400;500;700&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="styles.css" />
+<style>
+  .guide-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(150px,1fr)); gap:14px; }
+  .swatch { border-radius:var(--radius-sm); padding:16px; border:1px solid var(--border); }
+  .swatch .chip { height:60px; border-radius:8px; margin-bottom:10px; }
+  .demo-box { border:1px solid var(--border); border-radius:var(--radius); padding:24px; background:var(--bg-soft); }
+  .type-row { border-bottom:1px solid var(--border); padding:14px 0; }
+  .type-row:last-child { border-bottom:none; }
+  .stack-mini { display:flex; flex-direction:column; gap:14px; }
+  .stack-mini .sticky-card { position:sticky; }
+</style>
+</head>
+<body>
+<nav class="nav"><div class="brand">YANG JIE</div><div class="links"><a href="index.html">Home ↗</a><a href="project.html">Case ↗</a></div></nav>
+
+<section style="padding-top:130px;"><div class="wrap">
+  <span class="eyebrow reveal">UI Design System</span>
+  <h1 class="f-title grad reveal" data-delay="80">设计风格与交互参考</h1>
+  <p class="f-sub reveal" data-delay="120" style="color:var(--text-dim);max-width:60ch;margin-top:14px;">
+    本页是整站的设计令牌与交互组件手册。风格取自《网站设计参考提示词.md》并收敛为"暗黑高级·克制"；结构取自《网站结构参考.md》。所有示例均为实时可交互。
+  </p>
+</div></section>
+
+<!-- 配色 -->
+<section style="background:var(--bg-soft);"><div class="wrap">
+  <h2 class="f-sec grad reveal" style="margin-bottom:24px;">01 · 配色令牌</h2>
+  <div class="guide-grid reveal" data-delay="60">
+    <div class="swatch"><div class="chip" style="background:#F7F7F5;border:1px solid var(--border);"></div><div class="f-cap">Background</div><div>#F7F7F5</div></div>
+    <div class="swatch"><div class="chip" style="background:#FFFFFF;border:1px solid var(--border);"></div><div class="f-cap">Card</div><div>#FFFFFF</div></div>
+    <div class="swatch"><div class="chip" style="background:#1A1A1A;"></div><div class="f-cap">Text</div><div>#1A1A1A</div></div>
+    <div class="swatch"><div class="chip" style="background:#555555;"></div><div class="f-cap">Text Dim</div><div>#555555</div></div>
+    <div class="swatch"><div class="chip" style="background:linear-gradient(110deg,#555555,#1A1A1A);"></div><div class="f-cap">Heading Grad</div><div>#555555→#1A1A1A</div></div>
+    <div class="swatch"><div class="chip" style="background:linear-gradient(120deg,#3A7BD5,#2A9D8F);"></div><div class="f-cap">Button Grad</div><div>蓝→青</div></div>
+  </div>
+  <p class="f-cap reveal" data-delay="120" style="margin-top:18px;">原则：浅天蓝→米白渐变为主，黑/白/灰承载内容，单一蓝色强调；按钮不使用大面积渐变。</p>
+</div></section>
+
+<!-- 字体与字号 -->
+<section><div class="wrap">
+  <h2 class="f-sec grad reveal" style="margin-bottom:24px;">02 · 字体与流体字号</h2>
+  <p class="f-body reveal" style="color:var(--text-dim);margin-bottom:20px;">英文 Kanit（300–900），中文 Noto Sans SC。全部使用 clamp() 流体字号，禁止硬写 px。</p>
+  <div class="demo-box reveal" data-delay="60">
+    <div class="type-row"><div class="f-cap">Hero · clamp(2.8–6.5rem)</div><div class="f-hero grad">Turning AI into products</div></div>
+    <div class="type-row"><div class="f-cap">Title · clamp(2–3.6rem)</div><div class="f-title grad">Selected Work</div></div>
+    <div class="type-row"><div class="f-cap">Section · clamp(1.6–2.8rem)</div><div class="f-sec grad">How I Think</div></div>
+    <div class="type-row"><div class="f-cap">Sub · clamp(1.05–1.35rem)</div><div class="f-sub">An aspiring AI Product Manager</div></div>
+    <div class="type-row"><div class="f-cap">Body · clamp(0.95–1.05rem)</div><div class="f-body">杨杰 · Product · AI · Design</div></div>
+    <div class="type-row"><div class="f-cap">Caption · 0.78rem uppercase</div><div class="f-cap">AI Product Manager</div></div>
+  </div>
+</div></section>
+
+<!-- 组件 -->
+<section style="background:var(--bg-soft);"><div class="wrap">
+  <h2 class="f-sec grad reveal" style="margin-bottom:24px;">03 · 基础组件</h2>
+  <div class="reveal" data-delay="60" style="display:flex;gap:14px;flex-wrap:wrap;align-items:center;margin-bottom:24px;">
+    <a class="btn btn-primary">Primary <span class="arrow">→</span></a>
+    <a class="btn">Default</a>
+    <span class="tag">LLM</span><span class="tag">Workflow</span><span class="tag">Agent</span>
+  </div>
+  <div class="reveal" data-delay="100" style="display:grid;grid-template-columns:1fr 1fr;gap:16px;">
+    <div class="card" style="padding:22px;"><h3 style="font-family:var(--font-en);font-weight:800;font-size:1.3rem;">Card</h3><p style="color:var(--text-dim);font-size:.9rem;margin-top:8px;">白色卡片 + 细边框 + 统一圆角，承载重复条目。</p></div>
+    <div class="placeholder" style="aspect-ratio:4/3;"><div class="ph-label">Placeholder 占位符<br/>（缺图时先用，标注预期内容）</div></div>
+  </div>
+</div></section>
+
+<!-- 交互组件实时演示 -->
+<section><div class="wrap">
+  <h2 class="f-sec grad reveal" style="margin-bottom:10px;">04 · 交互组件（实时）</h2>
+  <p class="f-body reveal" style="color:var(--text-dim);margin-bottom:28px;">以下均为当前站点正在使用的同一套原生实现，可在本页直接体验。</p>
+
+  <!-- FadeIn -->
+  <div class="demo-box reveal" data-delay="0" style="margin-bottom:22px;">
+    <div class="f-cap">① FadeIn 渐入（滚动进入视口执行一次）</div>
+    <p style="color:var(--text-dim);margin-top:8px;">向下滚动，本卡片已在进入视口时淡入并上移。</p>
+  </div>
+
+  <!-- Magnet -->
+  <div class="demo-box reveal" data-delay="40" style="margin-bottom:22px;">
+    <div class="f-cap">② Magnet 磁吸（鼠标靠近元素轻微跟随，离开回弹）</div>
+    <div style="display:flex;gap:20px;margin-top:14px;flex-wrap:wrap;">
+      <div class="magnet card" data-strength="0.3" data-pad="60" style="padding:26px;width:180px;text-align:center;cursor:pointer;">Hover 我 ↗</div>
+      <div class="magnet card" data-strength="0.3" data-pad="60" style="padding:26px;width:180px;text-align:center;cursor:pointer;">磁吸卡片</div>
+    </div>
+  </div>
+
+  <!-- AnimatedText -->
+  <div class="demo-box reveal" data-delay="80" style="margin-bottom:22px;">
+    <div class="f-cap">③ AnimatedText 逐字符滚动（由滚动位置驱动，非挂载动画）</div>
+    <p class="anim-text" style="font-family:var(--font-en);font-weight:300;font-size:clamp(1.1rem,2.4vw,1.8rem);margin-top:10px;color:var(--text);">
+      I turn AI capabilities into useful products, one real problem at a time.
+    </p>
+  </div>
+
+  <!-- Marquee -->
+  <div class="demo-box reveal" data-delay="120" style="margin-bottom:22px;overflow:hidden;">
+    <div class="f-cap">④ Marquee 双向跑马灯（跟随页面 scrollY，两行反向）</div>
+    <div style="overflow:hidden;white-space:nowrap;margin-top:12px;">
+      <div class="marquee" data-dir="right" data-speed="0.04" style="display:inline-flex;gap:30px;">
+        <span class="tag">LLM</span><span class="tag">Vision</span><span class="tag">Prompt</span><span class="tag">Workflow</span><span class="tag">RAG</span><span class="tag">Agent</span>
+        <span class="tag">LLM</span><span class="tag">Vision</span><span class="tag">Prompt</span><span class="tag">Workflow</span><span class="tag">RAG</span><span class="tag">Agent</span>
+      </div>
+    </div>
+    <div style="overflow:hidden;white-space:nowrap;margin-top:10px;">
+      <div class="marquee" data-dir="left" data-speed="0.06" style="display:inline-flex;gap:30px;">
+        <span class="tag">User Research</span><span class="tag">MVP</span><span class="tag">SaaS</span><span class="tag">AI Evaluation</span>
+        <span class="tag">User Research</span><span class="tag">MVP</span><span class="tag">SaaS</span><span class="tag">AI Evaluation</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Sticky -->
+  <div class="demo-box reveal" data-delay="160" style="margin-bottom:22px;">
+    <div class="f-cap">⑤ Sticky 堆叠卡片（滚动缩放堆叠，用于 Selected Work）</div>
+    <div class="stack-mini" style="margin-top:14px;">
+      <div class="sticky-card" style="top:120px;"><div class="sticky-inner card" style="padding:18px;transform-origin:top center;"><b>01 GymBuddy</b> — 滚动看我堆叠缩放</div></div>
+      <div class="sticky-card" style="top:140px;"><div class="sticky-inner card" style="padding:18px;transform-origin:top center;"><b>02 AI Wiki</b> — 滚动看我堆叠缩放</div></div>
+      <div class="sticky-card" style="top:160px;"><div class="sticky-inner card" style="padding:18px;transform-origin:top center;"><b>03 OfferFlow</b> — 滚动看我堆叠缩放</div></div>
+    </div>
+  </div>
+
+</div></section>
+
+<!-- 响应式 -->
+<section style="background:var(--bg-soft);"><div class="wrap">
+  <h2 class="f-sec grad reveal" style="margin-bottom:16px;">05 · 响应式规则</h2>
+  <p class="f-body reveal" style="color:var(--text-dim);max-width:60ch;">
+    移动优先单列；标题/正文全部 clamp() 流体字号；Hero 肖像与浮动窗口在移动端居中堆叠；内边距与图片尺寸随断点收缩。断点：sm 640 / md 768 / lg 1024。
+  </p>
+</div></section>
+
+<p class="f-cap" style="text-align:center;padding:40px 0;">© 2026 Yang Jie · 设计系统 v1（参考版）</p>
+
+<script src="interactions.js"></script>
+</body>
+</html>

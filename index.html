@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>杨杰 · AI 产品经理作品集</title>
+<meta name="description" content="杨杰的个人网站：AI 产品经理，聚焦 AI 产品设计与落地。" />
+<link rel="icon" href="assets/favicon.png" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Kanit:wght@500;700;800&family=Noto+Sans+SC:wght@400;500;700&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="styles.css?v=20260819z" />
+</head>
+<body>
+
+<!-- ============ 导航 ============ -->
+<nav class="nav">
+  <div class="wrap">
+    <a class="nav__brand" href="#top">YANGJIE</a>
+    <div class="nav__links">
+      <a href="#about">关于我</a>
+      <a href="#universe">奇妙世界</a>
+      <a href="#projects">项目</a>
+      <a href="#method">方法</a>
+      <a href="#arsenal">武器库</a>
+      <a href="#contact">联系</a>
+      <a href="assets/docs/YangJie-AI-Product-Resume.pdf" target="_blank" rel="noopener">简历</a>
+    </div>
+  </div>
+</nav>
+
+<!-- ============ HERO ============ -->
+<header class="hero" id="top">
+  <div class="hero__bg"><canvas id="liquid-canvas"></canvas></div>
+
+  <div class="hero__grid">
+    <div class="hero__left">
+      <span class="hero__eyebrow fade-up">AI Product Manager · 海星</span>
+      <div class="hero__title fade-up fade-up-1">
+        <h1>YANGJIE</h1>
+        <div class="hero__claim">
+          <p>用 AI 把复杂变简单。</p>
+          <p>让产品自己会思考。</p>
+        </div>
+      </div>
+
+      <a class="btn btn--accent hero__cta fade-up fade-up-2" href="#about">认识我 <span aria-hidden="true">↓</span></a>
+    </div>
+
+    <div class="hero__right">
+      <div class="hero__stage">
+        <!-- 透明底人物（已抠背景），VP9 透明 WebM 走独立视频解码管线，循环播放，直接浮在液态背景上 -->
+        <video class="hero__video" autoplay loop muted playsinline preload="auto" poster="首屏视频-poster.png" data-loading="1">
+          <source src="首屏视频-cut3.webm" type="video/webm" />
+        </video>
+      </div>
+    </div>
+  </div>
+
+  <div class="hero__scroll" aria-hidden="true">
+    <span>SCROLL</span>
+    <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M8 3v10M3 9l5 5 5-5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+  </div>
+</header>
+
+<!-- ============ 关于我 ============ -->
+<section class="section section--about" id="about">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <h2>关于我</h2>
+      <p>一名把 AI 当工具、把人当中心的产物经理。喜欢从真实场景里找问题，再用产品和模型把它解决掉。</p>
+    </div>
+    <div class="about__grid">
+      <div class="about__media reveal">
+        <img class="about__video" src="assets/videos/about-animation.webp" alt="关于我动态视频" loading="lazy" />
+      </div>
+      <div class="about__bio reveal" data-d="1">
+        <div class="about__name">
+          <span class="about__name-label">NAME</span>
+          <h3>杨杰<span>YANGJIE</span></h3>
+        </div>
+        <div class="about__block">
+          <h4>EDUCATION</h4>
+          <p>浙江工商大学 · 广告学 · 2023—至今</p>
+        </div>
+        <div class="about__block">
+          <h4>EXPERIENCE</h4>
+          <div class="about__exp">
+            <div class="about__exp-head"><b>Whale 帷幄｜AI产品经理</b><span>2026.06—至今</span></div>
+            <p>需求全流程｜数据产品｜AI能力接入与测试</p>
+          </div>
+          <div class="about__exp">
+            <div class="about__exp-head"><b>归一智能｜AI投放</b><span>2026.03—06</span></div>
+            <p>AI产品调研｜投放数据分析｜AI素材生产</p>
+          </div>
+        </div>
+        <div class="about__block about__product">
+          <h4>AI PRODUCT</h4>
+          <p>从业务问题出发，把 AI 变成可用的产品能力。</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 我的奇妙世界 ============ -->
+<section class="section section--universe" id="universe">
+  <div class="wrap">
+    <div class="section-head reveal" style="text-align:center;margin-left:auto;margin-right:auto;">
+      <h2>我的奇妙世界</h2>
+      <p style="margin-left:auto;margin-right:auto;">表面随性，骨子里是用 AI 推动自化的逻辑鬼才。</p>
+    </div>
+
+    <div class="universe__stage reveal" data-d="1">
+      <article class="card-float is-light cf-1" data-name="AI Wiki">
+        <img class="card-float__img" src="assets/projects/aiwiki-new.png?v=2" alt="AI Wiki 截图" loading="lazy" />
+        <div class="card-float__name">AI Wiki</div>
+        <div class="card-float__desc">会自省的知识库</div>
+      </article>
+
+      <article class="card-float cf-2" data-name="OfferFlow">
+        <img class="card-float__img" src="assets/projects/offerflow-dashboard.png" alt="OfferFlow 截图" loading="lazy" />
+        <div class="card-float__name">OfferFlow</div>
+        <div class="card-float__desc">智能求职面试平台</div>
+      </article>
+
+      <article class="card-float cf-3" data-name="海星 App">
+        <img class="card-float__img" src="assets/projects/haixin-home.png" alt="海星 App 截图" loading="lazy" />
+        <div class="card-float__name">海星的工作生活</div>
+        <div class="card-float__desc">效率工具 App</div>
+      </article>
+
+      <article class="card-float is-light cf-4" data-name="GymBuddy">
+        <img class="card-float__img" src="assets/projects/gymbuddy-new.png?v=2" alt="GymBuddy 截图" loading="lazy" />
+        <div class="card-float__name">GymBuddy</div>
+        <div class="card-float__desc">健身社交 MVP</div>
+      </article>
+
+      <div class="universe__char">
+        <img src="assets/videos/universe-character.webp" alt="我的奇妙世界动态人物" loading="lazy" />
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ============ 项目经历 ============ -->
+<section class="section section--projects" id="projects">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <h2>项目经历</h2>
+      <p class="nowrap">四个我亲手推进过的项目，从安全研究到求职平台，再到效率工具与健身社区。</p>
+    </div>
+
+    <!-- 1 AI Wiki -->
+    <article class="project reveal">
+      <div class="project__media"><img class="project__img" src="assets/projects/aiwiki-new.png?v=2" alt="AI Wiki 主视觉" loading="lazy" /></div>
+      <div class="project__body">
+        <div class="project__index">01 / 04</div>
+        <h3>AI Wiki</h3>
+        <p class="project__desc nowrap">一套会自我审视的知识库系统，把 RAG 检索与安全防护做成可落地产品。</p>
+        <div class="project__pills"><span class="pill">知识库</span><span class="pill">安全研究</span><span class="pill">RAG</span></div>
+        <dl class="project__rows">
+          <div class="row"><dt>我的角色</dt><dd>核心产品成员</dd></div>
+          <div class="row"><dt>周期</dt><dd>2026.07</dd></div>
+          <div class="row"><dt>核心动作</dt><dd><ul><li>梳理 RAG 攻防边界</li><li>设计 15 个功能模块</li><li>产出 3 个知识库投毒漏洞案例</li></ul></dd></div>
+          <div class="row"><dt>成果</dt><dd>发现知识库投毒漏洞，形成可复用的评测方法</dd></div>
+        </dl>
+        <a class="project__link" href="project.html#aiwiki">查看详情</a>
+      </div>
+    </article>
+
+    <!-- 2 OfferFlow -->
+    <article class="project project--rev reveal">
+      <div class="project__media"><img class="project__img" src="assets/projects/offerflow-dashboard.png" alt="OfferFlow 主视觉" loading="lazy" /></div>
+      <div class="project__body">
+        <div class="project__index">02 / 04</div>
+        <h3>OfferFlow</h3>
+        <p class="project__desc">面向求职者的智能面试平台，用 Agent 串起从准备到拿 offer 的闭环。</p>
+        <div class="project__pills"><span class="pill">求职平台</span><span class="pill">Agent</span><span class="pill">Workflow</span></div>
+        <dl class="project__rows">
+          <div class="row"><dt>我的角色</dt><dd>产品负责人</dd></div>
+          <div class="row"><dt>周期</dt><dd>2026 至今</dd></div>
+          <div class="row"><dt>核心动作</dt><dd><ul><li>设计 Agent 工作流</li><li>搭建整体技术架构</li><li>推动 V1 到 V2 演进</li></ul></dd></div>
+          <div class="row"><dt>成果</dt><dd>形成智能求职闭环平台</dd></div>
+        </dl>
+        <a class="project__link" href="project.html#offerflow">查看详情</a>
+      </div>
+    </article>
+
+    <!-- 3 海星 -->
+    <article class="project reveal">
+      <div class="project__media"><img class="project__img" src="assets/projects/haixin-home.png" alt="海星 App 主视觉" loading="lazy" /></div>
+      <div class="project__body">
+        <div class="project__index">03 / 04</div>
+        <h3>海星的工作生活</h3>
+        <p class="project__desc">一款效率工具 App，把琐碎的日常事务收拢成一个清爽的入口。</p>
+        <div class="project__pills"><span class="pill">效率工具</span><span class="pill">全栈</span><span class="pill">移动端</span></div>
+        <dl class="project__rows">
+          <div class="row"><dt>我的角色</dt><dd>产品 + 全栈</dd></div>
+          <div class="row"><dt>周期</dt><dd>2026 至今</dd></div>
+          <div class="row"><dt>核心动作</dt><dd><ul><li>规划 9 大功能模块</li><li>设计 3 套外观主题</li><li>执行 164 项测试用例</li></ul></dd></div>
+          <div class="row"><dt>成果</dt><dd>上线可用的效率工具 App</dd></div>
+        </dl>
+        <a class="project__link" href="project.html#haixin">查看详情</a>
+      </div>
+    </article>
+
+    <!-- 4 GymBuddy -->
+    <article class="project project--rev reveal">
+      <div class="project__media"><img class="project__img" src="assets/projects/gymbuddy-new.png?v=2" alt="GymBuddy 主视觉" loading="lazy" /></div>
+      <div class="project__body">
+        <div class="project__index">04 / 04</div>
+        <h3>GymBuddy</h3>
+        <p class="project__desc">一个健身社交 MVP，让器械不再劝退，让坚持变得有反馈。</p>
+        <div class="project__pills"><span class="pill">健身社区</span><span class="pill">MVP</span><span class="pill">用户研究</span></div>
+        <dl class="project__rows">
+          <div class="row"><dt>我的角色</dt><dd>产品负责人</dd></div>
+          <div class="row"><dt>周期</dt><dd>2026.05</dd></div>
+          <div class="row"><dt>核心动作</dt><dd><ul><li>完成 23 人深度访谈</li><li>建立器械认知体系</li><li>拍板 MVP 范围</li></ul></dd></div>
+          <div class="row"><dt>成果</dt><dd>产出可验证的健身社交 MVP 方案</dd></div>
+        </dl>
+        <a class="project__link" href="project.html#gymbuddy">查看详情</a>
+      </div>
+    </article>
+  </div>
+</section>
+
+<!-- ============ 工作方法 ============ -->
+<section class="section section--method" id="method">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <h2>工作方法</h2>
+      <p class="nowrap">不管项目大小，我都按同一套节奏推进：先看清，再撬动，快验证，最后做成体验。</p>
+    </div>
+    <div class="method__steps reveal" data-d="1">
+      <div class="step"><div class="step__num">01</div><h3>看清问题</h3><p>先和用户待在一起，把真问题从伪需求里捞出来。</p></div>
+      <div class="step"><div class="step__num">02</div><h3>找到杠杆</h3><p>找那个一处改动就能撬动全局的关键点。</p></div>
+      <div class="step"><div class="step__num">03</div><h3>快速验证</h3><p>用最小原型去撞真实反馈，而不是闭门造车的完美。</p></div>
+      <div class="step"><div class="step__num">04</div><h3>做成体验</h3><p>把能用，打磨成想用、好用、愿意分享。</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 秘密武器库 ============ -->
+<section class="section section--arsenal" id="arsenal">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <h2>秘密武器库</h2>
+      <p class="nowrap">工具会换，把事做漂亮的能力不会。</p>
+    </div>
+    <div class="arsenal__groups reveal" data-d="1">
+      <div class="arsenal__group">
+        <h3>产品能力</h3>
+        <div class="tags"><span>需求分析</span><span>PRD</span><span>原型设计</span><span>数据驱动</span><span>用户研究</span></div>
+      </div>
+      <div class="arsenal__group">
+        <h3>AI 能力</h3>
+        <div class="tags"><span>Prompt 工程</span><span>RAG</span><span>Agent 工作流</span><span>AI 安全评测</span><span>LLM 应用</span></div>
+      </div>
+      <div class="arsenal__group">
+        <h3>工具栈</h3>
+        <div class="tags"><span>Figma</span><span>Notion</span><span>Claude</span><span>GPT</span><span>Git</span></div>
+      </div>
+      <div class="arsenal__group">
+        <h3>语言 / 其他</h3>
+        <div class="tags"><span>英文阅读</span><span>产品文档</span><span>小红书运营</span><span>演讲表达</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 联系我 ============ -->
+<section class="section section--contact contact" id="contact">
+  <div class="wrap">
+    <div class="contact__avatar reveal"><img src="assets/about/avatar.png" alt="头像" /></div>
+    <h2 class="reveal" data-d="1">一起做点有意思的东西</h2>
+    <div class="contact__meta reveal" data-d="2">
+      <span>所在地 <b>杭州</b></span>
+      <a href="tel:19012722869" data-copy="19012722869">手机 <b data-copy="19012722869">19012722869</b></a>
+      <a href="mailto:Jarek.Yang@outlook.com" data-copy="Jarek.Yang@outlook.com">邮箱 <b data-copy="Jarek.Yang@outlook.com">Jarek.Yang@outlook.com</b></a>
+    </div>
+    <div class="contact__social reveal" data-d="3">
+      <a class="btn btn--accent" href="mailto:Jarek.Yang@outlook.com">发邮件</a>
+      <a class="btn btn--ghost" href="https://github.com/pdx1601166367-jpg" target="_blank" rel="noopener">GitHub</a>
+      <a class="btn btn--ghost" href="assets/docs/YangJie-AI-Product-Resume.pdf" target="_blank" rel="noopener">下载简历</a>
+    </div>
+  </div>
+</section>
+
+<footer class="foot">© 2026 杨杰 · Built with care</footer>
+
+<script src="interactions.js?v=20260818g"></script>
+</body>
+</html>

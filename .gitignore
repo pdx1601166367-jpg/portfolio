@@ -1,0 +1,52 @@
+# Python venv
+Include/
+Lib/
+Scripts/
+pyvenv.cfg
+
+# 本地记忆与临时文件
+.workbuddy/
+_video_work/
+
+# 预览与备份
+preview-*.png
+screenshot-*.pdf
+screenshot-*.png
+*.bak.20260817
+
+# 未使用的旧媒体
+首屏视频.mp4
+首屏视频.webm
+首屏视频.webp
+首屏视频-cut.apng
+首屏视频-cut2.webp
+首屏视频-cut3.webp
+首屏视频-cut4.webp
+首屏视频-cut-old-ghosted.webp
+首屏视频-transparent.webm
+首屏视频mp4预览.jpg
+微信图片_*.jpg
+个人照片参考*.jpg
+关于我-动态视频.mp4
+我的奇妙世界-动态视频1.mp4
+
+# 源素材与旧文件
+个人作品集2026（杨杰）.pdf
+杨杰-校招-AI产品经理.pdf
+offerflow.png
+offerflow2.png
+AI-Wiki.png
+gymbuddy.png
+头像.png
+
+# 未被页面引用的旧视频
+assets/videos/*.webm
+
+# 规划文档
+网站结构参考.md
+网站设计参考提示词.md
+项目-*.md
+AIWiki知识库投毒漏洞测试报告.md
+
+# 未使用组件
+components/

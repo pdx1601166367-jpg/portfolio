@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Project Case Study · Yang Jie</title>
+<link rel="icon" href="assets/favicon.png" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;500;700;800;900&family=Noto+Sans+SC:wght@300;400;500;700&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="styles.css?v=20260819z" />
+</head>
+<body>
+
+<nav class="nav">
+  <div class="wrap">
+    <a class="nav__brand" href="index.html">YANG JIE</a>
+    <div class="nav__links">
+      <a href="index.html#projects">Work</a>
+      <a href="index.html#about">About</a>
+      <a href="index.html">Home ↗</a>
+    </div>
+  </div>
+</nav>
+
+<!-- 项目内锚点导航 -->
+<div class="subnav">
+  <a href="#aiwiki">AI Wiki</a>
+  <a href="#offerflow">OfferFlow</a>
+  <a href="#haixin">海星</a>
+  <a href="#gymbuddy">GymBuddy</a>
+</div>
+
+<!-- ==================== AI WIKI ==================== -->
+<section class="case" id="aiwiki">
+  <div class="wrap">
+    <div class="case__head">
+      <div>
+        <div class="f-cap reveal">Project 01 · Enterprise AI Knowledge Base</div>
+        <h1 class="f-title grad reveal" data-delay="80" style="margin:12px 0 8px;">AI Wiki</h1>
+        <p class="f-sub nowrap reveal" data-delay="120" style="color:var(--text-dim);">将企业文档自动编译为结构化、可追溯、可增量更新的知识库，并输出带引用的 AI 问答。</p>
+        <div class="case__meta reveal" data-delay="160">
+          <span class="tag">LLM Wiki</span><span class="tag">RAG</span><span class="tag">Schema</span><span class="tag">Agent</span><span class="tag">Prompt 工程</span>
+        </div>
+        <div class="case__meta reveal" data-delay="180" style="margin-top:10px;">
+          <span class="tag">AI 产品经理</span><span class="tag">2026 · 已开放内测</span><span class="tag">Enterprise AI Product</span>
+        </div>
+      </div>
+      <img class="case__hero-img reveal" src="assets/projects/aiwiki-hero-v2.png" alt="AI Wiki 主视觉" loading="lazy" />
+    </div>
+
+    <div class="case__body reveal" data-d="1">
+      <section class="case__section">
+        <div class="case__label">Overview</div>
+        <div class="case__content">
+          <p>传统 RAG 像“每次重新翻书”，AI Wiki 像“自动进化的维基百科”：把散落文档编译成结构化知识，再通过自然语言问答输出带引用答案。</p>
+        </div>
+      </section>
+
+      <section class="case__section">
+        <div class="case__label">Problem</div>
+        <div class="case__content">
+          <p>企业文档散落、检索准确率低、答案不可追溯、内容时效难保证；用知识沉淀与增量更新替代“每次独立检索”。</p>
+        </div>
+      </section>
+
+      <section class="case__section">
+        <div class="case__label">Role</div>
+        <div class="case__content">
+          <div class="case__cards">
+            <div class="case__card"><b>独立负责</b><p>内测验证体系设计 · 风险识别 · 质量把控</p></div>
+            <div class="case__card"><b>共同参与</b><p>产品方案设计 · 需求拆解 · 功能模块定义</p></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="case__section">
+        <div class="case__label">Solution</div>
+        <div class="case__content">
+          <p>15 大功能模块（构建 / 问答 / 溯源 / 发布 / 集成）；Schema 元指令管“知识怎么整理”，System Prompt 管“AI 用什么角色回答”。</p>
+        </div>
+      </section>
+
+      <section class="case__section">
+        <div class="case__label">AI Flow</div>
+        <div class="case__content">
+          <div class="case__flow">Knowledge → Knowledge Injection → Prompt → LLM → Output → AI Evaluation → Optimization</div>
+        </div>
+      </section>
+
+      <section class="case__section">
+        <div class="case__label">Validation</div>
+        <div class="case__content">
+          <div class="case__cases">
+            <div class="case__case"><h4>知识库投毒 · 高危</h4><p>伪装文档可改写全库口径；改为来源可信度分级与交叉校验。</p></div>
+            <div class="case__case"><h4>跨语言不一致 · 中</h4><p>中英文回答完整度不同；强化生成层指令与语言一致性。</p></div>
+            <div class="case__case"><h4>长文档截断 · 低</h4><p>530 页只检索前 50 页；优化分块与截断逻辑。</p></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="case__section">
+        <div class="case__label">Results</div>
+        <div class="case__content">
+          <div class="case__stats">
+            <div class="case__card"><b>27</b><p>页方案</p></div>
+            <div class="case__card"><b>15</b><p>功能模块</p></div>
+            <div class="case__card"><b>11</b><p>维度验证</p></div>
+            <div class="case__card"><b>1</b><p>高危漏洞</p></div>
+          </div>
+          <p style="margin-top:12px;">AI 产品经理还要管理模型的“信任边界”：prompt 约束、内容权威性、回答可追溯性。</p>
+        </div>
+      </section>
+    </div>
+  </div>
+</section>
+
+<hr class="hr" />
+
+<!-- ==================== OFFERFLOW ==================== -->
+<section class="case" id="offerflow">
+  <div class="wrap">
+    <div class="case__head">
+      <div>
+        <div class="f-cap reveal">Project 02 · AI Agent Product</div>
+        <h1 class="f-title grad reveal" data-delay="80" style="margin:12px 0 8px;">OfferFlow</h1>
+        <p class="f-sub nowrap reveal" data-delay="120" style="color:var(--text-dim);">面向 AI 产品经理求职者的智能求职面试平台，从 AI Workflow 到 AI Agent 的产品演进。</p>
+        <div class="case__meta reveal" data-delay="160">
+          <span class="tag">AI Agent</span><span class="tag">PWA</span><span class="tag">Workflow</span><span class="tag">产品经理求职</span>
+        </div>
+        <div class="case__meta reveal" data-delay="180" style="margin-top:10px;">
+          <span class="tag">独立产品负责人</span><span class="tag">核心闭环已上线</span><span class="tag">300题 / 12类任务 / 50评测集</span>
+        </div>
+      </div>
+      <img class="case__hero-img reveal" src="assets/projects/offerflow-dashboard.png" alt="OfferFlow 求职工作台" loading="lazy" />
+    </div>
+
+    <div class="case__body reveal" data-d="1">
+      <section class="case__section">
+        <div class="case__label">Overview</div>
+        <div class="case__content">
+          <p>把信息收集、简历优化、刷题、模拟面试、投递和复盘串成完整闭环；V2 加入 Agent 决策层，用户只提目标，Agent 规划任务、调用工具、生成训练计划。</p>
+        </div>
+      </section>
+
+      <section class="case__section">
+        <div class="case__label">Problem</div>
+        <div class="case__content">
+          <p>求职信息分散、训练低效、反馈缺失、简历盲区，单工具无法解决完整求职链路。</p>
+        </div>
+      </section>
+
+      <section class="case__section">
+        <div class="case__label">Metrics</div>
+        <div class="case__content">
+          <div class="case__stats">
+            <div class="case__card"><b>300</b><p>面试题</p></div>
+            <div class="case__card"><b>12</b><p>类 Agent 任务</p></div>
+            <div class="case__card"><b>50</b><p>评测集</p></div>
+            <div class="case__card"><b>PWA</b><p>双模式</p></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="case__section">
+        <div class="case__label">Media</div>
+        <div class="case__content">
+          <div class="media-grid">
+            <img class="media-grid__img" src="assets/projects/offerflow-dashboard.png" alt="OfferFlow 求职工作台" loading="lazy" />
+            <img class="media-grid__img" src="assets/projects/offerflow-agent.png" alt="OfferFlow AI 求职 Agent" loading="lazy" />
+            <img class="media-grid__img" src="assets/projects/offerflow-mock.png" alt="OfferFlow 模拟面试" loading="lazy" />
+          </div>
+        </div>
+      </section>
+
+      <section class="case__section">
+        <div class="case__label">Links</div>
+        <div class="case__content">
+          <div class="case__links">
+            <a href="https://github.com/pdx1601166367-jpg/autumn-offerflow" target="_blank" rel="noopener" class="btn btn-primary">查看源码 <span class="arrow">→</span></a>
+            <a href="https://github.com/pdx1601166367-jpg/autumn-offerflow/blob/main/OfferFlow_V2_Agent_%E4%BA%A7%E5%93%81%E6%96%B9%E6%A1%88.md" target="_blank" rel="noopener" class="btn">V2 产品方案</a>
+          </div>
+        </div>
+      </section>
+    </div>
+  </div>
+</section>
+
+<hr class="hr" />
+
+<!-- ==================== 海星的工作生活 ==================== -->
+<section class="case" id="haixin">
+  <div class="wrap">
+    <div class="case__head">
+      <div>
+        <div class="f-cap reveal">Project 03 · Local-first Web App</div>
+        <h1 class="f-title grad reveal" data-delay="80" style="margin:12px 0 8px;">海星的工作生活</h1>
+        <p class="f-sub nowrap reveal" data-delay="120" style="color:var(--text-dim);">一款只在本机运行的个人工作生活工作台，9 大模块 / 164 项自动化测试 / 0 云端依赖。</p>
+        <div class="case__meta reveal" data-delay="160">
+          <span class="tag">本地优先</span><span class="tag">原生JS</span><span class="tag">Node.js</span><span class="tag">自动化测试</span>
+        </div>
+        <div class="case__meta reveal" data-delay="180" style="margin-top:10px;">
+          <span class="tag">产品 + 全栈</span><span class="tag">v1.0 已完成</span><span class="tag">三套外观</span>
+        </div>
+      </div>
+      <img class="case__hero-img reveal" src="assets/projects/haixin-home.png" alt="海星首页总览" loading="lazy" />
+    </div>
+
+    <div class="case__body reveal" data-d="1">
+      <section class="case__section">
+        <div class="case__label">Overview</div>
+        <div class="case__content">
+          <p>一款只在本机运行的个人工作生活工作台，把计划、自媒体、校招、产品、健身、饮食和游戏集中到统一入口。</p>
+        </div>
+      </section>
+
+      <section class="case__section">
+        <div class="case__label">Problem</div>
+        <div class="case__content">
+          <p>求职、工作、生活并行，信息分散在备忘录、表格和各类工具里，缺少统一入口。</p>
+        </div>
+      </section>
+
+      <section class="case__section">
+        <div class="case__label">Metrics</div>
+        <div class="case__content">
+          <div class="case__stats">
+            <div class="case__card"><b>9</b><p>大模块</p></div>
+            <div class="case__card"><b>164</b><p>项测试</p></div>
+            <div class="case__card"><b>0</b><p>云端依赖</p></div>
+            <div class="case__card"><b>3</b><p>套外观</p></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="case__section">
+        <div class="case__label">Media</div>
+        <div class="case__content">
+          <div class="media-grid">
+            <img class="media-grid__img" src="assets/projects/haixin-home.png" alt="海星首页总览" loading="lazy" />
+            <img class="media-grid__img" src="assets/projects/haixin-plan.png" alt="海星今日计划" loading="lazy" />
+            <img class="media-grid__img" src="assets/projects/haixin-media.png" alt="海星自媒体" loading="lazy" />
+          </div>
+        </div>
+      </section>
+
+      <section class="case__section">
+        <div class="case__label">Links</div>
+        <div class="case__content">
+          <div class="case__links">
+            <a href="https://pdx1601166367-jpg.github.io/haixin-own-app/?demo=1" target="_blank" rel="noopener" class="btn btn-primary">在线体验 <span class="arrow">→</span></a>
+            <a href="https://github.com/pdx1601166367-jpg/haixin-own-app" target="_blank" rel="noopener" class="btn">GitHub</a>
+          </div>
+        </div>
+      </section>
+    </div>
+  </div>
+</section>
+
+<hr class="hr" />
+
+<!-- ==================== GYMBUDDY ==================== -->
+<section class="case" id="gymbuddy">
+  <div class="wrap">
+    <div class="case__head">
+      <div>
+        <div class="f-cap reveal">Project 04 · Personal AI Product</div>
+        <h1 class="f-title grad reveal" data-delay="80" style="margin:12px 0 8px;">GymBuddy</h1>
+        <p class="f-sub nowrap reveal" data-delay="120" style="color:var(--text-dim);">利用 AI 视觉识别帮助健身新手快速认识器械并获得训练指导的 AI 健身助手。</p>
+        <div class="case__meta reveal" data-delay="160">
+          <span class="tag">User Research</span><span class="tag">AI Product</span><span class="tag">Product Design</span><span class="tag">MVP</span>
+        </div>
+        <div class="case__meta reveal" data-delay="180" style="margin-top:10px;">
+          <span class="tag">产品负责人</span><span class="tag">2026.05</span><span class="tag">AI 视觉识别</span>
+        </div>
+      </div>
+      <img class="case__hero-img reveal" src="assets/projects/gymbuddy-design-1.png" alt="GymBuddy 器械识别演示" loading="lazy" />
+    </div>
+
+    <div class="case__body reveal" data-d="1">
+      <section class="case__section">
+        <div class="case__label">Overview</div>
+        <div class="case__content">
+          <p>帮助健身新手在器械前“不知道是什么、怎么用”时，获得即时识别和训练指导。</p>
+        </div>
+      </section>
+
+      <section class="case__section">
+        <div class="case__label">Decision</div>
+        <div class="case__content">
+          <p>初始假设是动作纠正，但 20+ 新手访谈后确认“器械认知”才是第一层问题，因此 MVP 优先做器械识别。</p>
+        </div>
+      </section>
+
+      <section class="case__section">
+        <div class="case__label">Flow</div>
+        <div class="case__content">
+          <div class="case__flow">23 位访谈 → 发现真实痛点 → 器械认知是第一层问题 → 确定 MVP → 视觉模型识别器械 → 数据库返回信息 → 训练辅助 → 测试迭代</div>
+        </div>
+      </section>
+
+      <section class="case__section">
+        <div class="case__label">Media</div>
+        <div class="case__content">
+          <div class="media-grid">
+            <img class="media-grid__img" src="assets/projects/gymbuddy-design-1.png" alt="GymBuddy 器械识别演示" loading="lazy" />
+            <img class="media-grid__img" src="assets/projects/gymbuddy-design-2.png" alt="GymBuddy 用户研究与原型" loading="lazy" />
+            <img class="media-grid__img" src="assets/projects/gymbuddy-detail-v2.png" alt="GymBuddy 详情页主视觉" loading="lazy" />
+          </div>
+        </div>
+      </section>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<section><div class="wrap" style="text-align:center;">
+  <div class="reveal" style="margin-top:18px;display:flex;gap:14px;justify-content:center;flex-wrap:wrap;">
+    <a href="index.html#projects" class="btn">回到 Work</a>
+    <a href="mailto:Jarek.Yang@outlook.com" class="btn btn-primary">联系我 <span class="arrow">→</span></a>
+  </div>
+  <p class="f-cap reveal" data-delay="200" style="margin-top:40px;">© 2026 Yang Jie</p>
+</div></section>
+
+<script src="interactions.js?v=20260818g"></script>
+</body>
+</html>
