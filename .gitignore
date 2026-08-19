@@ -26,8 +26,6 @@ screenshot-*.png
 首屏视频-cut-old-ghosted.webp
 首屏视频-transparent.webm
 首屏视频mp4预览.jpg
-首屏视频-cut3.webm
-首屏视频-poster.png
 微信图片_*.jpg
 个人照片参考*.jpg
 关于我-动态视频.mp4
@@ -43,8 +41,7 @@ gymbuddy.png
 头像.png
 
 # 未被页面引用的旧视频
-assets/videos/about-animation.webm
-assets/videos/universe-character.webm
+assets/videos/*.webm
 
 # 规划文档
 网站结构参考.md
