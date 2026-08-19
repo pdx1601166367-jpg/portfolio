@@ -8,6 +8,7 @@ pyvenv.cfg
 .workbuddy/
 _video_work/
 _resume_*.pdf
+portfolio-deploy.zip
 
 # 预览与备份
 preview-*.png

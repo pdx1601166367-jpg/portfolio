@@ -1,52 +1,47 @@
-%PDF-1.7
+%PDF-1.3
 %âãÏÓ
 1 0 obj
 <<
-/Producer (pypdf)
+/Type /Catalog
+/Pages 2 0 R
+/Outlines 35 0 R
 >>
 endobj
 2 0 obj
 <<
 /Type /Pages
 /Count 1
-/Kids [ 4 0 R ]
+/Kids [ 3 0 R ]
 >>
 endobj
 3 0 obj
 <<
-/Type /Catalog
-/Pages 2 0 R
-/Outlines 33 0 R
->>
-endobj
-4 0 obj
-<<
-/Contents 5 0 R
+/Contents 4 0 R
 /MediaBox [ 0 0 540 779.8 ]
 /Resources <<
 /ExtGState <<
-/GS10 6 0 R
-/GS8 7 0 R
+/GS10 5 0 R
+/GS8 6 0 R
 >>
 /Font <<
-/F1 8 0 R
-/F2 9 0 R
-/FT11 10 0 R
-/FT17 17 0 R
-/FT22 22 0 R
-/FT27 27 0 R
+/F1 7 0 R
+/F2 8 0 R
+/FT11 9 0 R
+/FT17 16 0 R
+/FT22 21 0 R
+/FT27 26 0 R
 >>
 /XObject <<
-/IM9 32 0 R
+/IM9 31 0 R
 >>
 /ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
 >>
 /Type /Page
 /Parent 2 0 R
-/Annots [ 34 0 R 36 0 R ]
+/Annots [ 32 0 R 34 0 R ]
 >>
 endobj
-5 0 obj
+4 0 obj
 <<
 /Length 64824
 >>
@@ -307,7 +302,7 @@ Q
 
 endstream
 endobj
-6 0 obj
+5 0 obj
 <<
 /AIS false
 /BM /Normal
@@ -316,7 +311,7 @@ endobj
 /ca 0.588
 >>
 endobj
-7 0 obj
+6 0 obj
 <<
 /AIS false
 /BM /Normal
@@ -325,7 +320,7 @@ endobj
 /ca 1
 >>
 endobj
-8 0 obj
+7 0 obj
 <<
 /BaseFont /Helvetica
 /Encoding /WinAnsiEncoding
@@ -334,7 +329,7 @@ endobj
 /Type /Font
 >>
 endobj
-9 0 obj
+8 0 obj
 <<
 /BaseFont /STSong-Light
 /DescendantFonts [ <<
@@ -371,36 +366,36 @@ endobj
 /Type /Font
 >>
 endobj
-10 0 obj
+9 0 obj
 <<
 /BaseFont /UAYIKZ+SourceHanSerifCN-SemiBold
-/DescendantFonts [ 11 0 R ]
+/DescendantFonts [ 10 0 R ]
 /Encoding /Identity-H
 /Subtype /Type0
-/ToUnicode 16 0 R
+/ToUnicode 15 0 R
 /Type /Font
 >>
 endobj
-11 0 obj
+10 0 obj
 <<
 /BaseFont /UAYIKZ+SourceHanSerifCN-SemiBold
-/CIDSystemInfo 12 0 R
-/CIDToGIDMap 13 0 R
+/CIDSystemInfo 11 0 R
+/CIDToGIDMap 12 0 R
 /DW 1000
-/FontDescriptor 14 0 R
+/FontDescriptor 13 0 R
 /Subtype /CIDFontType2
 /Type /Font
 /W [ 34 [ 735 ] 42 [ 413 ] ]
 >>
 endobj
-12 0 obj
+11 0 obj
 <<
 /Ordering (Identity)
 /Registry (Adobe)
 /Supplement 0
 >>
 endobj
-13 0 obj
+12 0 obj
 <<
 /Filter /FlateDecode
 /Length 181
@@ -409,7 +404,7 @@ stream
 xœíİ±	ÂP€á´âA-RèvÚØˆS8FÀÔq	;ÀÂq\ÄJQ0øÂñÈ÷uWÜñopE‘@ù6W)                9™¢^ÍÆÑ  üf>Š.`ˆ÷è   >[®¢   èns‰. à›í5º€<ìÑ     @*ûut     0µ ­CÛyãÖGÇS3éó:         À?Îí*ÇJ
 endstream
 endobj
-14 0 obj
+13 0 obj
 <<
 /Ascent 1807
 /AvgWidth 990
@@ -418,7 +413,7 @@ endobj
 /Flags 34
 /FontBBox [ -1005 -1047 2927 1807 ]
 /FontFamily (Source Han Serif CN)
-/FontFile2 15 0 R
+/FontFile2 14 0 R
 /FontName /UAYIKZ+SourceHanSerifCN-SemiBold
 /FontStretch /Normal
 /FontWeight 600
@@ -430,7 +425,7 @@ endobj
 /XHeight 514
 >>
 endobj
-15 0 obj
+14 0 obj
 <<
 /Filter /FlateDecode
 /Length1 702186
@@ -2528,7 +2523,7 @@ F«¹ş‡Çîâ©ÜF“…*C¯Á§Ğ„w¦³Ş±·dÉÅå;^ï•Hó!ÆµLüÈJÚùzÃUæ€ItÂ5üW
 XºpHÑÆÛZ×‚ÇŞì XC¸¡“ †öåò]ó¸úÁ`N¸…id-à€–l“G 6-Ÿ£ó\’’	›±ƒXYæ[ ´‰Sg*Ÿ¬Œ#_8wEú‹ëí…“aQàu«po§Üe=Òï©v²c+ã‚$®À“*ãhb¸rÉÑ}A[…sª8n‚.%ªÓ•Ó*ã¡ÄÙTê•“ªÁ å÷Ú)=pz²ÃÅ¸lêmy¿)·U¥÷_¤¸Ï«à_\4°
 endstream
 endobj
-16 0 obj
+15 0 obj
 <<
 /Filter /FlateDecode
 /Length 337
@@ -2538,29 +2533,29 @@ xœ]‘İj„0…ï}Š\¶‹M4 ‚ëxÑjû ®[¡F‰î…oß™¸l¡…sÎÏ¸y]ÔzÜ˜ûnæ®£î¬óÍtÀ.pµãsÖ
 $©D€¤DtpÿSª÷Å=w7c°b»TÛ-µ:jxì}™†)z~Ošù
 endstream
 endobj
-17 0 obj
+16 0 obj
 <<
 /BaseFont /CWOKZM+AlibabaPuHuiTi_3_65_Medium
-/DescendantFonts [ 18 0 R ]
+/DescendantFonts [ 17 0 R ]
 /Encoding /Identity-H
 /Subtype /Type0
-/ToUnicode 21 0 R
+/ToUnicode 20 0 R
 /Type /Font
 >>
 endobj
-18 0 obj
+17 0 obj
 <<
 /BaseFont /CWOKZM+AlibabaPuHuiTi_3_65_Medium
-/CIDSystemInfo 12 0 R
+/CIDSystemInfo 11 0 R
 /CIDToGIDMap /Identity
 /DW 1000
-/FontDescriptor 19 0 R
+/FontDescriptor 18 0 R
 /Subtype /CIDFontType2
 /Type /Font
 /W [ 3 [ 257 ] 14 [ 562 ] 16 [ 440 312 500 581 581 581 581 ] 25 28 581 29 [ 387 ] 35 [ 858 688 ] 38 [ 601 704 558 531 688 717 286 283 630 515 849 ] 50 [ 745 610 ] 52 [ 745 627 570 536 ] 57 [ 647 917 ] 60 [ 619 ] 68 [ 614 637 498 637 581 352 639 625 275 275 537 293 929 625 619 637 ] 85 [ 387 483 345 620 545 845 544 ] 956 [ 984 ] 958 [ 984 ] 970 [ 984 ] 1011 1012 984 1023 [ 680 ] 1027 1028 782 1037 [ 984 ] 1040 [ 984 ] 1084 [ 984 ] 1087 [ 984 ] 7886 [ 984 ] 7896 27558 984 ]
 >>
 endobj
-19 0 obj
+18 0 obj
 <<
 /Ascent 1117
 /AvgWidth 973
@@ -2569,7 +2564,7 @@ endobj
 /Flags 32
 /FontBBox [ -390 -299 1243 1117 ]
 /FontFamily (Alibaba PuHuiTi 3\0560)
-/FontFile2 20 0 R
+/FontFile2 19 0 R
 /FontName /CWOKZM+AlibabaPuHuiTi_3_65_Medium
 /FontStretch /Normal
 /FontWeight 500
@@ -2581,7 +2576,7 @@ endobj
 /XHeight 540
 >>
 endobj
-20 0 obj
+19 0 obj
 <<
 /Filter /FlateDecode
 /Length1 300708
@@ -2936,7 +2931,7 @@ PŒ‡Ãby	a*HsQ<„û_WÁ ùsÌşÂìŸ_£Ö*f•‘ğıZğî`p‰J-™?ÆŠıC-Ù¼_äª¶ÇóıÃïÛtp¯
 ]½Sís¸[u5yşºÊÒ·Ìİıéïßàí÷³Ì4ö-È„\EÎŠ“:°	á€¹)²¼YÂ‘§]GÎÖÜ;×-=¼g,dñí¹ÕÙâ _óctÎé;ÊÚ¨.ÌÃ¨‹vŒHé`È¶&Û.—ÃÄ s‘Ã)Âñ‚°”ãGXÃ~Aşb5ñçËŒ¶4£6[iVinŸğ¬Ü/Y-JñİÀÌF{ïù%z®£“¸X9y9Å2üPjå\ó’ÏPû g_ROŸ«ÉÓ‘Õªüª6|ÍdÎ`²˜§P•_!æh‚ø¯“·ñƒíİ}W­Jû„Ww§6"ï†Qá7V…óñj~¦,$ÊŒÍƒ‹Šõ.Sç0nT9š²“Ç˜¬ ¡Ğ/äçŠ7™èòü90Äç­ceâ+°–²ŞÜ;_H-æ2…+;ƒ¹¿N„Ÿ<¿ú|º¥"‘ß¹w¯¢2r†Ú1Òë©(-†8RâşXg½Uô‡ı±`®«
 endstream
 endobj
-21 0 obj
+20 0 obj
 <<
 /Filter /FlateDecode
 /Length 2249
@@ -2948,29 +2943,29 @@ TÔjšÔ[B“uk…¨ˆªh@òŸß´z°şk¦ìóÖES4¡k}2QIŞQDšY53k—ª]òü¼°±ÎSc–“ğ‹§,ê"Ö*N
 ±m$EªøeQÄÊ¶i—±A»eÑyëLWQÃe;§Y6NÓvRwÙHİ«K:%”Ç²9øE-VÓ!bÌ‰§ì$U£Ù%dv‰-@Ó ‰¼ÈGJ3Êd‰”I3,*QYÕL’çªÀØg|ZÕ’=ûb‰¶$ØUE&â“Ş"´ÎD\IDœšº’iê¬Ğ,•L³DE<‰«³`¬È¢Êç›r$¬­<2ÊÁ#ÃêÁÌ£çß'ÈóCï·ÛçËo_‘ï~¼¼\_ùdÍ—ãó›ñÃãõ·¯ÚÏOÏ—µêüûŸŸër
 endstream
 endobj
-22 0 obj
+21 0 obj
 <<
 /BaseFont /LNUHNF+SimSun
-/DescendantFonts [ 23 0 R ]
+/DescendantFonts [ 22 0 R ]
 /Encoding /Identity-H
 /Subtype /Type0
-/ToUnicode 26 0 R
+/ToUnicode 25 0 R
 /Type /Font
 >>
 endobj
-23 0 obj
+22 0 obj
 <<
 /BaseFont /LNUHNF+SimSun
-/CIDSystemInfo 12 0 R
+/CIDSystemInfo 11 0 R
 /CIDToGIDMap /Identity
 /DW 1000
-/FontDescriptor 24 0 R
+/FontDescriptor 23 0 R
 /Subtype /CIDFontType2
 /Type /Font
 /W [ 3 11 500 ]
 >>
 endobj
-24 0 obj
+23 0 obj
 <<
 /Ascent 859
 /AvgWidth 500
@@ -2979,7 +2974,7 @@ endobj
 /Flags 32
 /FontBBox [ -7 -140 1000 859 ]
 /FontFamily (SimSun)
-/FontFile2 25 0 R
+/FontFile2 24 0 R
 /FontName /LNUHNF+SimSun
 /FontStretch /Normal
 /FontWeight 400
@@ -2991,7 +2986,7 @@ endobj
 /XHeight 453
 >>
 endobj
-25 0 obj
+24 0 obj
 <<
 /Filter /FlateDecode
 /Length1 224440
@@ -3040,7 +3035,7 @@ NV»ø¥Ÿµà.Ó€¾BŞ“Ù8C‹|DôÊ9mfE'ZˆÌš3‹NDÅ‰Û¾›8¹9‹š™‘G‹Nâç4†ı×Ìò9Ûş¢³iöc¸2
 \ÆÀ.]ºtuqqaqñ>mÒÔ|s±™..6çæòt1k5{zjäùüB?ídİ^³ûP·İHÒA³Ñ<»ØZLÒäTk©½¸¨çNCÏµ8Öö1×†0n­:+I2NúÃ~Ö]i&ñp±‘Oş«Yšv’Q¼¸¤­t;ú-m­u£“ÛÃN·­Ù¯'ç“¹$ÊQkcøCmÿ§uÿÙ%¼<ëÓ)Ã‡S›ıf³w;IÒjıÉB+o¶—º¡æ¢±s*º¼ÿDFÿ£¶Ä“ï5¢ù3‰ÑkYtÕ ojC{î‚6´?ı¡F}¹aYÒ,tÌ‡KúßâıïX¾|lriyqåÊúäÊj-DëûıËè¿šQGÏûItb{<8úæûİå7ßt£ùüÍ÷£Ö›ïÏk/@´†úÏùÇ›_zh<ll>téáÍã¡|~óÒ¥7.^|ù¹³gŸ;wùÄ‰ËÇ?tæÈ‘3Gç.¾arÒ³/;÷ÒÒq›•=sìØ™(úÄkô/
 endstream
 endobj
-26 0 obj
+25 0 obj
 <<
 /Filter /FlateDecode
 /Length 270
@@ -3050,29 +3045,29 @@ xœ]ÑÍjÃ0ğ{BÇîPòÑ¦í ÚlƒöÁÒ=€c+™aqŒãòöS¬ÒÁ	üşFÈqU?ÕF{ˆ?Ü(ôĞi£Nãì$B‹½6Qš
 û&„8¤¶µ¢²öË–"×Å"dÁ)"G…“0=FEB§„â…N¡QÿêiÂ±¶“ßÂ…öµ'I–”A{VÊÊYëÀÚ±¬=ëÄÊY¬ëÌ:².¬ÓªôR‘²¼zÃŞ¦ZÇ¦İÂ}'rvÖ ìaİ€6x#;Z Ôúı#âˆ
 endstream
 endobj
-27 0 obj
+26 0 obj
 <<
 /BaseFont /XKLGLA+Alibaba-PuHuiTi-B
-/DescendantFonts [ 28 0 R ]
+/DescendantFonts [ 27 0 R ]
 /Encoding /Identity-H
 /Subtype /Type0
-/ToUnicode 31 0 R
+/ToUnicode 30 0 R
 /Type /Font
 >>
 endobj
-28 0 obj
+27 0 obj
 <<
 /BaseFont /XKLGLA+Alibaba-PuHuiTi-B
-/CIDSystemInfo 12 0 R
+/CIDSystemInfo 11 0 R
 /CIDToGIDMap /Identity
 /DW 575
-/FontDescriptor 29 0 R
+/FontDescriptor 28 0 R
 /Subtype /CIDFontType2
 /Type /Font
 /W [ 1 [ 0 257 257 372 416 ] 724 726 0 14554 [ 984 ] 14562 [ 984 ] ]
 >>
 endobj
-29 0 obj
+28 0 obj
 <<
 /Ascent 1141
 /AvgWidth 974
@@ -3081,7 +3076,7 @@ endobj
 /Flags 32
 /FontBBox [ -438 -322 1269 1141 ]
 /FontFamily (Alibaba PuHuiTi)
-/FontFile2 30 0 R
+/FontFile2 29 0 R
 /FontName /XKLGLA+Alibaba-PuHuiTi-B
 /FontStretch /Normal
 /FontWeight 700
@@ -3093,7 +3088,7 @@ endobj
 /XHeight 540
 >>
 endobj
-30 0 obj
+29 0 obj
 <<
 /Filter /FlateDecode
 /Length1 232772
@@ -3246,7 +3241,7 @@ y0ÖøÒX/¬uôM{îVC>ÏúÕ˜=ë…¹Å˜¤góßpyÏ‰~´÷{
 …B¡Pø€¶–'--­ÿÕöÓµt¶´ôOõNÍôNõ>iıÁë[¿ğúgm?ıåØnÛ—~ù×-É[¾üÙ·v·ıø íğAÚEM÷Ÿk[^Ún[\˜lènûÚßôº5>ÕßÑÑ?5>6Õ×ÙÙ7Õöã×·_¿îèûÕ¯cã¯¿ÊïRë¿´~Òö/Ûò;À¥?{ûß{Õö‹×?i=÷ú'é†>ûK}W'Z&[µ´ÌÌµÎöN÷vtÎnkuzyqyxpqpzpuRÃ3İotv«§uvõà;ûº[Ÿ'ën=xm=H>3½<5ØŞzïğp×7g®îŸ™éùøëßüêWO9Òús½ÑŞşF«z§–go¾Õ;t¬³­­££½õòÑs×Ş\~uõîÊÙîµ±Ÿ?Ú>òNkï´şÃëŸ}Ö;Ó÷úEëï¾uçÃ;^øäïÚÿö“cÇNêú«ÃÛÏ?zµß;{õD×Ÿt´µwõõÜùdàñŸış—çŸëİoìıÎ½ºş'¿öÃO¾ı-í-ãŸ}_ÿ¬s-'ZÎ·,·ì´<<èƒÚO-O4vjpê ©½08½|Ğ¾™_ı¥ÙöƒvüİúùßWüuvüÿ´÷úß[}»õÑëzøê+×î|ü÷»ß>uçÍ÷VÚ~Ô3=}êè·ŒOêùå÷z&ÇG½shl¢«õôoÿ´ıXOÏ¡‡íÇÕ§ê<|¤½uoã|ç£öw¿snokcò;›úèçÿ9½»»;İ1vóÎŞèòäŞí[“ÿ6qc÷æääÉ;woO¶ÎŒnïlŒü?Ú;²³·3Ú?±»»=ÖÒò?+¯
 endstream
 endobj
-31 0 obj
+30 0 obj
 <<
 /Filter /FlateDecode
 /Length 271
@@ -3255,7 +3250,7 @@ stream
 xœ]‘İj„0…ï}Š¹Ü^,ÆlënAY[ğ¢?Ôö4m &!Æß¾c"[h 3'Î¤×¦n´ò¾;#Zô0(-Îfq¡ÇQé$ã •ğ;…WLMR2·ëìqjô` (ÒÒfïV8TÒôxé›“è”áğum‰ÛÅÚœP{`e	úæ¥³¯İ„×±‘$+¿Éò7ñ¹Z8‹Q„‘8ÛN ëôˆIÁè”P<Ó)ÔòŸ±hëñİ¹0Ñxpâ‘êH§@|×î#e‘"ñx5¶SÔØc¤<REtºÔQ~Î/x 3a÷T[lênˆÅ9ª#, ô°5 4Şvdrm÷D ˆF
 endstream
 endobj
-32 0 obj
+31 0 obj
 <<
 /BitsPerComponent 8
 /ColorSpace /DeviceRGB
@@ -3692,24 +3687,20 @@ a9§ã Ó}h79uNİiãŠbŒÈÄö©q@§ŠLt¥#€Ij\fŠ CFiG=i()hÏzZ J;Ğhõ ïIü©M(é@æ–
 )3E ÿÙ
 endstream
 endobj
-33 0 obj
+32 0 obj
 <<
->>
-endobj
-34 0 obj
-<<
-/A 35 0 R
+/A 33 0 R
 /BS <<
 /W 0
 >>
 /F 4
-/P 4 0 R
+/P 3 0 R
 /Rect [ 115.1 144.85 371.95 159.95 ]
 /Subtype /Link
 /Type /Annot
 >>
 endobj
-35 0 obj
+33 0 obj
 <<
 /IsMap false
 /S /URI
@@ -3717,12 +3708,12 @@ endobj
 /URI (https\072\057\057github\056com\057pdx1601166367\055jpg\057autumn\055offerflow)
 >>
 endobj
-36 0 obj
+34 0 obj
 <<
 /A <<
 /S /URI
 /Type /Action
-/URI (https\072\057\057pdx1601166367\055jpg\056github\056io\057portfolio\057)
+/URI (https\072\057\057pdx\055portfolio\055my\055resume\055d0g4ha6u2bba2a0de\056webapps\056tcloudbase\056com)
 >>
 /Border [ 0 0 0 ]
 /Rect [ 180 694 261.859 707 ]
@@ -3730,51 +3721,60 @@ endobj
 /Type /Annot
 >>
 endobj
+35 0 obj
+<<
+>>
+endobj
+36 0 obj
+<<
+/Producer (pypdf)
+>>
+endobj
 xref
 0 37
 0000000000 65535 f 
 0000000015 00000 n 
-0000000054 00000 n 
-0000000113 00000 n 
-0000000179 00000 n 
-0000000512 00000 n 
-0000065389 00000 n 
-0000065466 00000 n 
-0000065539 00000 n 
-0000065646 00000 n 
-0000066552 00000 n 
-0000066714 00000 n 
-0000066918 00000 n 
-0000066993 00000 n 
-0000067247 00000 n 
-0000067599 00000 n 
-0000608558 00000 n 
-0000608968 00000 n 
-0000609131 00000 n 
-0000609787 00000 n 
-0000610140 00000 n 
-0000696267 00000 n 
-0000698590 00000 n 
-0000698733 00000 n 
-0000698908 00000 n 
-0000699221 00000 n 
-0000724856 00000 n 
-0000725199 00000 n 
-0000725353 00000 n 
-0000725591 00000 n 
-0000725927 00000 n 
-0000761549 00000 n 
-0000761893 00000 n 
-0000823615 00000 n 
-0000823637 00000 n 
-0000823763 00000 n 
-0000823905 00000 n 
+0000000081 00000 n 
+0000000140 00000 n 
+0000000472 00000 n 
+0000065349 00000 n 
+0000065426 00000 n 
+0000065499 00000 n 
+0000065606 00000 n 
+0000066512 00000 n 
+0000066673 00000 n 
+0000066877 00000 n 
+0000066952 00000 n 
+0000067206 00000 n 
+0000067558 00000 n 
+0000608517 00000 n 
+0000608927 00000 n 
+0000609090 00000 n 
+0000609746 00000 n 
+0000610099 00000 n 
+0000696226 00000 n 
+0000698549 00000 n 
+0000698692 00000 n 
+0000698867 00000 n 
+0000699180 00000 n 
+0000724815 00000 n 
+0000725158 00000 n 
+0000725312 00000 n 
+0000725550 00000 n 
+0000725886 00000 n 
+0000761508 00000 n 
+0000761852 00000 n 
+0000823574 00000 n 
+0000823700 00000 n 
+0000823842 00000 n 
+0000824081 00000 n 
+0000824103 00000 n 
 trailer
 <<
 /Size 37
-/Root 3 0 R
-/Info 1 0 R
+/Root 1 0 R
+/Info 36 0 R
 >>
 startxref
-824112
+824143
 %%EOF
