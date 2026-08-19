@@ -7,6 +7,7 @@ pyvenv.cfg
 # 本地记忆与临时文件
 .workbuddy/
 _video_work/
+_resume_*.pdf
 
 # 预览与备份
 preview-*.png
